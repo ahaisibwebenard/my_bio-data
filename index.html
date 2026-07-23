@@ -7,7 +7,7 @@
       name="description"
       content="Ahaisibwe Benard is a Computer Science student building a portfolio centered on research, software development, and academic excellence."
     />
-    <title>Ahaisibwe Benard | Computer Science Portfolio</title>
+    <title>Ahaisibwe Benard | Computer Scientist</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,7 +38,7 @@
     <main id="hero">
       <section class="hero container">
         <div class="hero-copy">
-          <p class="hero-brand">Ahaisibwe <span>Benard</span> — Computer Science Portfolio</p>
+          <p class="hero-brand">Ahaisibwe <span>Benard</span> — Computer Scientist</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">Explore work</a>
             <a class="btn btn-secondary" href="#contact">See contact</a>
@@ -221,7 +221,7 @@
             <p class="eyebrow">Let’s Connect</p>
             <h2>I am open to thoughtful conversations, collaboration, and learning opportunities.</h2>
             <p>
-              Whether it is about Computer Science, research, software projects, or academic growth, I am always glad to connect with people who are building something meaningful.
+              Whether it is about Computer Science, research, software projects, or academic growth, I am always glad to connect with people who are building something meaningful. Use the form to send your message directly — it will arrive through Formspree.
             </p>
             <div class="social-links">
               <a href="https://x.com/Bernardoahaisib" target="_blank" rel="noreferrer">X / Twitter</a>
@@ -232,12 +232,11 @@
             </div>
             <div class="contact-details">
               <p><strong>Phone:</strong> <a href="tel:+256700186905">0700186905</a> • <a href="tel:+256776108889">0776108889</a></p>
-              <p><strong>Email:</strong> <a href="mailto:ahaisibweebenard@gmail.com">ahaisibweebenard@gmail.com</a></p>
+              <p><strong>Email:</strong> <a href="mailto:ahaisibweebenard@gmail.com">ahaisibweebenard@gmail.com</a> (fallback contact)</p>
             </div>
           </div>
-          <form id="contact-form" class="contact-form" action="https://formspree.io/f/xojglvgg" method="POST" novalidate>
-            <div data-fs-success class="fs-success" hidden>Thanks — your message has been sent.</div>
-            <div data-fs-error class="fs-error" hidden>Sorry — there was an error sending your message.</div>
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/mrenadpz" method="POST">
+            <input type="hidden" name="_subject" value="Portfolio contact request" />
 
             <div class="form-group">
               <label for="name">Name</label>
@@ -264,6 +263,9 @@
             </div>
 
             <button class="btn btn-primary btn-full" type="submit" data-fs-submit-btn>Send Message</button>
+            <p class="form-note">Share your thoughts — I’ll read every message and respond with care.</p>
+            <div data-fs-success class="fs-success" hidden>Thanks — your message has been sent.</div>
+            <div data-fs-error class="fs-error" hidden>Sorry — there was an error sending your message.</div>
             <p class="form-status" role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -271,7 +273,7 @@
     </main>
     <script>
       window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-      formspree('initForm', { formElement: '#contact-form', formId: 'xojglvgg' });
+      formspree('initForm', { formElement: '#contact-form', formId: 'mrenadpz' });
     </script>
     <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
