@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahaisibwebenard.github.io/my_bio-data/sitemap.xml
